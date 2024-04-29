@@ -9,7 +9,7 @@ abstract FoodAbstract = {
     Is : Item -> Quality -> Phrase ;
     This, That : Kind -> Item ;
     QKind : Quality -> Kind -> Kind ;
-    Wine, Cheese, Fish : Kind ;
+    Wine, Cheese, Fish, NasiLemak : Kind ;
     Very : Quality -> Quality ;
-    Fresh, Warm, Italian, Expensive, Delicious, Boring : Quality ;
+    Fresh, Warm, Italian, Expensive, Delicious, Boring, Good : Quality ;
 }

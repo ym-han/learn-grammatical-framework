@@ -8,10 +8,14 @@ concrete FoodEng of FoodAbstract = {
     This kind = {s = "this" ++ kind.s} ;
     That kind = {s = "that" ++ kind.s} ;
     QKind quality kind = {s = quality.s ++ kind.s} ;
+
+    NasiLemak = {s = "nasi lemak"} ;
     Wine = {s = "wine"} ;
     Cheese = {s = "cheese"} ;
     Fish = {s = "fish"} ;
+    
     Very quality = {s = "very" ++ quality.s} ;
+    Good = {s = "good"} ;
     Fresh = {s = "fresh"} ;
     Warm = {s = "warm"} ;
     Italian = {s = "Italian"} ;
